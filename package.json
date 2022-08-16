@@ -1,0 +1,37 @@
+{
+  "name": "node-academind",
+  "version": "1.0.0",
+  "description": "Starting a new course to learn nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-sanvariya/node-academind.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ssr",
+    "api",
+    "mongoose",
+    "mongodb",
+    "ejs",
+    "epub",
+    "json",
+    "fs",
+    "http"
+  ],
+  "author": "Shubham Sanwariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham-sanvariya/node-academind/issues"
+  },
+  "homepage": "https://github.com/shubham-sanvariya/node-academind#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
