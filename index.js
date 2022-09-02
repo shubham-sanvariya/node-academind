@@ -1,14 +1,10 @@
-import http from 'http';
-import express from 'express';
-import  'dotenv/config'
+import http from 'http'
 
-console.log(process.env.password);
-// setTimeout(() => {
+const requestListener = function (req, res) {
+    console.log('hello');
+    res.writeHead(200);
+    res.end('Hello, World!');
+}
 
-//     console.log('here')
-// }, 0);
-// console.log('here')
-
-const first = (()=>{
-console.log('first this ');
-},console.log('after callback'),()=>console.log("in the end "))()
+const server = http.createServer(requestListener);
+server.listen(8080);
